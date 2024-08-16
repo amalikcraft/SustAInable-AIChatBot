@@ -1,3 +1,21 @@
+The AI-powered chatbot is hosted on an AWS EC2 server using a virtual machine running Ubuntu.
+
+We use the Caddy port proxy to route traffic to port 80 on the virtual machine. Amazon Route 53 was utilized to create a subdomain, linking the machine's public IP address to our personal domain. You can visit the chatbot at:
+
+https://chatbot.sustainableaimessaging.chat/
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
